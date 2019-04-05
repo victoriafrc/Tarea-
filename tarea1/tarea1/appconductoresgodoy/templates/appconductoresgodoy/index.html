@@ -1,0 +1,102 @@
+<html> 
+<head>
+	<title>Conductores Godoy</title> 
+	<meta charset="uft-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotrom {
+			margin: 30px;
+		}
+	</style>
+	<style>
+body {
+	background-color: white;
+}
+h2 {
+	color: black;
+	text-align: left; 
+}
+h4 {
+	color: black;
+	text-align: left;
+}
+
+p {
+	font-family: verdana;
+	font-size: 10px;
+}
+</style>
+</head>
+<body>
+	<right>
+		<div class="well">
+				<form action="ejemplo.php" method="get">
+					<p>Usuario:    <input type="text" name="caca" maxlength="6"></p>
+					<p>Contraseña: <input type="password" name="password" minlength="6"></p>
+					<p>
+    					<input type="submit" value="">
+    					<input type="reset" value="Borrar">
+  					</p>
+				</form>
+		</div>
+	</right>	
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Inicio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="pagina2/">Licencia clase B<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="pagina3/">Reserva de horas</a>
+				<a class="nav-item nav-link" href="pagina4/">Quienes Somos</a>
+				<a class="nav-item nav-link" href="pagina5/">Contacto</a>
+
+			</div>
+
+		</div>
+	</nav>
+	<div class="row">
+		<div class="jumbotron">
+			<h4>Escuela de conductores Godoy blablabla</h4>
+		</div>
+	</div>
+
+	<center>
+		<div class="row">
+			<div class="col-md-12">
+				<img class="appconductoresgodoy-responsive" src="{% static 'appconductoresgodoy/images/godoy.jpg' %}" align="middle" alt="" height="333px" width="499px">
+			</div>
+		</div>
+	</center>
+	 <!--Grid row-->
+<div class="row">
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <!--Card-->
+    <div class="card card-cascade narrower">
+
+      <!--Card image-->
+      <div class="view view-cascade gradient-card-header blue-gradient">
+        <h5 class="mb-0">Regular map</h5>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+      </div>
+  	</div>
+	</div>
+	</div>
+	</div>
+ <!--Google map-->
+        <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.0135894174623!2d-70.66355158508895!3d-33.52703230883221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dafbbed9212d%3A0x9a81ec124bb05e0!2sGran+Avenida+Jose+Miguel+Carrera+7954%2C+La+Cisterna%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1554447541012!5m2!1ses!2scl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+</body>
+</html>

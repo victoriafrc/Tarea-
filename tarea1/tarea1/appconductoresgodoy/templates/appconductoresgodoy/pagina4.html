@@ -1,0 +1,67 @@
+<html> 
+<head>
+	<title>Conductores Godoy</title> 
+	<meta charset="uft-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotrom {
+			margin: 30px;
+		}
+	</style>
+	<style>
+body {
+	background-color: white;
+}
+h2 {
+	color: blue;
+	text-align: center; 
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+	<a class="navbar-brand" href="http://127.0.0.1:8000">Inicio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="http://127.0.0.1:8000/pagina2/">Licencia clase B<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="http://127.0.0.1:8000/pagina3/">Reserva de horas</a>
+				<a class="nav-item nav-link" href="http://127.0.0.1:8000/pagina4/">Quienes Somos</a>
+				<a class="nav-item nav-link" href="http://127.0.0.1:8000/pagina5/">Contacto</a>
+			</div>
+
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+			<h1>Titulo 1</h1>
+			</div>
+		</div>
+	</div>
+
+	<center>
+		<div class="row">
+			<div class="col-md-12">
+				<img class="appconductoresgodoy-responsive" src="{% static 'appconductoresgodoy/images/godoy.jpg' %}" align="middle" alt="" height="333px" width="499px">
+			<h2>Parrafo</h2>
+			</div>
+		</div>
+	</center>
+</body>
+</html>
